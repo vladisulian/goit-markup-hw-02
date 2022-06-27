@@ -9,7 +9,10 @@ body {
 }
 
 .header {
-  background: #ffffff;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
 }
 
 .Web {
@@ -45,7 +48,6 @@ body {
 }
 
 /* navigate */
-
 .top_text_1 {
   position: absolute;
   width: 49px;
@@ -62,8 +64,40 @@ body {
 
   color: #212121;
 }
+.top_text_1_choos {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
 
 .top_text_2 {
+  position: absolute;
+  width: 76px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.top_text_2_choos {
   position: absolute;
   width: 76px;
   height: 16px;
@@ -132,13 +166,288 @@ body {
   color: #757575;
 }
 
-/* main */
+/* main index */
+.main_webstudio {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+  display: flex;
+}
+.central_text {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button_index {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-top: 50px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button_index_text {
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.traits {
+  padding-top: 760px;
+}
+.aftc1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.trait1 {
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.trait1-1 {
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.aftc2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+.trait2 {
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.trait2-2 {
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.aftc3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+.trait3 {
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.trait3-3 {
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.aftc4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+}
+.trait4 {
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.trait4-4 {
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.wawd_sect {
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.wawd {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.wawd_pic1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  padding-top: 50px;
+}
+.wawd_pic2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+  padding-top: 50px;
+}
+.wawd_pic3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+  padding-top: 50px;
+}
+
+/* main portfolio */
 .main-sect {
   width: 1170px;
   height: 1360px;
   left: 215px;
-  top: 174px;
+  top: 165px;
 }
 
 /* button */
@@ -147,20 +456,43 @@ body {
   width: 611px;
   height: 54px;
   left: 495px;
-  top: 174px;
+  top: 165px;
 }
 
+.button_li {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 165px;
+}
 .button1 {
   position: absolute;
   width: 73px;
   height: 38px;
   left: 495px;
-  top: 168px;
-
+  top: 165px;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.button1_text {
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 171px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 
 .button2 {
@@ -168,10 +500,28 @@ body {
   width: 128px;
   height: 38px;
   left: 576px;
-  top: 168px;
+  top: 165px;
 
   background: #f5f4fa;
   border-radius: 4px;
+}
+.button2_text {
+  width: 84px;
+  height: 26px;
+  left: 598px;
+  top: 171px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .button3 {
@@ -179,10 +529,28 @@ body {
   width: 145px;
   height: 38px;
   left: 712px;
-  top: 168px;
+  top: 165px;
 
   background: #f5f4fa;
   border-radius: 4px;
+}
+.button3_text {
+  width: 101px;
+  height: 26px;
+  left: 734px;
+  top: 171px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .button4 {
@@ -190,10 +558,28 @@ body {
   width: 103px;
   height: 38px;
   left: 865px;
-  top: 168px;
+  top: 165px;
 
   background: #f5f4fa;
   border-radius: 4px;
+}
+.button4_text {
+  width: 59px;
+  height: 26px;
+  left: 887px;
+  top: 171px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .button5 {
@@ -201,10 +587,28 @@ body {
   width: 130px;
   height: 38px;
   left: 976px;
-  top: 168px;
+  top: 165px;
 
   background: #f5f4fa;
   border-radius: 4px;
+}
+.button5_text {
+  width: 86px;
+  height: 26px;
+  left: 998px;
+  top: 171px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 /* img */
