@@ -1,0 +1,201 @@
+.header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+
+.Web {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.wStudio {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+/* navigate */
+
+.top_text_1 {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.top_text_2 {
+  position: absolute;
+  width: 76px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.top_text_3 {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+/* mail & phone */
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.phone {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+/* main */
+
+.main-sect {
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+
+.button-sect {
+  width: 611px;
+  height: 54px;
+  left: 495px;
+  top: 174px;
+}
+
+.button1 {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 168px;
+
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.button2 {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 168px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button3 {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 168px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button4 {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 168px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button5 {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 168px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
