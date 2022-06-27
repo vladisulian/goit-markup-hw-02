@@ -478,66 +478,14 @@ body {
 
 /* Наша команда */
 
-.ot_sect {
+.our_team_sect {
   position: absolute;
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
-  margin-top: 94px;
+
   background: #f5f4fa;
-}
-.ot_tittle {
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.li_1 {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 215px;
-  top: 1635px;
-}
-.li1pic {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 215px;
-  top: 1635px;
-
-  background: url(4853.jpg);
-  border-radius: 0px;
-}
-.li_1_text {
-  position: absolute;
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
 }
 
 /* footer index */
