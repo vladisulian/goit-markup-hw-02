@@ -8,11 +8,12 @@ body {
   background: #ffffff;
 }
 
-.header {
+.hero {
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
+  background-color: #ffffff;
 }
 
 .Web {
@@ -64,7 +65,7 @@ body {
 
   color: #212121;
 }
-.top_text_1_choos {
+.top_text_1_choose {
   position: absolute;
   width: 49px;
   height: 16px;
@@ -79,6 +80,13 @@ body {
   letter-spacing: 0.02em;
 
   color: #2196f3;
+}
+.finger1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 480px;
+  top: 49px;
 }
 
 .top_text_2 {
@@ -132,7 +140,7 @@ body {
 }
 
 /* mail & phone */
-.mail {
+.mailchoose {
   position: absolute;
   width: 135px;
   height: 16px;
@@ -146,7 +154,14 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: #2196f3;
+}
+.fingermail {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1107px;
+  top: 51px;
 }
 
 .phone {
