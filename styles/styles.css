@@ -28,8 +28,8 @@ h2 {
   color: #212121;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 .hero {
@@ -223,11 +223,12 @@ ul{
 
 /* main index */
 .main_webstudio {
-  position: absolute;
+    position: absolute;
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
+
   background: #2f303a;
 }
 .central_text {
@@ -273,6 +274,8 @@ ul{
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  /* identical to box height, or 188% */
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -473,6 +476,7 @@ ul{
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 
   color: #212121;
 }
@@ -519,7 +523,13 @@ ul{
   left: 668px;
   top: 1543px;
 }
-.card1_bg {
+.team {
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+}
+.card1 {
   position: absolute;
   width: 270px;
   height: 368px;
@@ -530,47 +540,37 @@ ul{
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-/* .pic1_text { */
-/* width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-/* 
-  text-align: center;
-  letter-spacing: 0.03em; */
-
-/* color: #212121; */
-/* } */
-.pic1_text1 {
-  width: 130px;
-  height: 19px;
-  left: 285px;
-  top: 1954px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.card2_bg {
+.card2 {
   position: absolute;
   width: 270px;
   height: 368px;
   left: 515px;
+  top: 1635px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.card3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.card4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
   top: 1635px;
 
   background: #ffffff;
@@ -581,7 +581,7 @@ ul{
   border-radius: 0px 0px 4px 4px;
 }
 
-/* footer index */
+/* footer */
 .footer_index {
   position: absolute;
   width: 1600px;
