@@ -1,11 +1,35 @@
 /* body font */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   position: relative;
   width: 1600px;
   height: 1880px;
 
   background: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+p {
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+ul{
+    list-style: none;
 }
 
 .hero {
@@ -205,7 +229,6 @@ body {
   left: 0px;
   top: 80px;
   background: #2f303a;
-  display: flex;
 }
 .central_text {
   position: absolute;
@@ -227,20 +250,19 @@ body {
 
   color: #ffffff;
 }
-
-.button_index {
+.index_button {
   position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  margin-top: 50px;
+  margin-top: 40px;
 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.button_index_text {
+.index_button_text {
   width: 136px;
   height: 30px;
   left: 732px;
@@ -251,8 +273,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -260,8 +280,13 @@ body {
 
   color: #ffffff;
 }
+
+/* index button */
+
+/* traits */
 .traits {
   padding-top: 760px;
+  margin-left: 215px;
 }
 .aftc1 {
   position: absolute;
@@ -484,6 +509,7 @@ body {
   height: 648px;
   left: 0px;
   top: 1449px;
+  margin-top: 94px;
 
   background: #f5f4fa;
 }
@@ -492,16 +518,6 @@ body {
   height: 42px;
   left: 668px;
   top: 1543px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
 }
 .card1_bg {
   position: absolute;
@@ -515,7 +531,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 /* .pic1_text { */
-  /* width: 151px;
+/* width: 151px;
   height: 19px;
   left: 275px;
   top: 1925px;
@@ -528,9 +544,9 @@ body {
   /* identical to box height */
 /* 
   text-align: center;
-  letter-spacing: 0.03em; */ 
+  letter-spacing: 0.03em; */
 
-  /* color: #212121; */
+/* color: #212121; */
 /* } */
 .pic1_text1 {
   width: 130px;
