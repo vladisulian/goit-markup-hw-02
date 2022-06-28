@@ -32,12 +32,11 @@ ul {
   list-style: none;
 }
 
-.hero {
+.header {
   width: 1600px;
-  height: 80px;
+  height: 600px;
   left: 0px;
-  top: 0px;
-  background-color: #ffffff;
+  top: 80px;
 }
 
 .Web {
@@ -57,18 +56,6 @@ ul {
 }
 
 .wStudio {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-
   color: #000000;
 }
 
@@ -223,7 +210,7 @@ ul {
 
 /* main index */
 .main_webstudio {
-    position: absolute;
+  position: absolute;
   width: 1600px;
   height: 600px;
   left: 0px;
