@@ -1,3 +1,14 @@
+:root {
+  --hover_col: #2196f3;
+  --blue: #2196f3;
+  --white: #ffffff;
+  --contacts_col: #757575;
+  --Studio_text: #000000;
+  --text_col: #212121;
+  --undertittle_col: #757575;
+  --our_team_bg_col: #f5f4fa;
+  --main_bg_col: #2f303a;
+}
 /* common styles */
 /* common styles */
 
@@ -5,8 +16,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--text_col);
+  background-color: var(--white);
 }
 
 a {
@@ -21,15 +32,15 @@ ul {
 .btn:hover,
 .footer_contacts:hover,
 .footer_map:hover {
-  color: #2196f3;
+  color: var(--hover_col);
 }
 .header_text:focus,
 .contacts:focus,
 .btn:focus,
 .footer_contacts:focus,
 .footer_map:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white);
+  background-color: var(--hover_col);
 }
 
 .btn {
@@ -42,7 +53,7 @@ ul {
 /* index html styles */
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .Web {
   font-family: 'Raleway';
@@ -50,10 +61,10 @@ ul {
   font-size: 26px;
   line-height: 31px;
 
-  color: #2196f3;
+  color: var(--blue);
 }
 .Studio {
-  color: #000000;
+  color: var(--Studio_text);
 }
 .header_text {
   font-weight: 500;
@@ -65,13 +76,13 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--contacts_col);
 }
 
 /* Main */
 
 .main_bg {
-  background-color: #2f303a;
+  background-color: var(--main_bg_col);
 }
 .main_text {
   font-weight: 900;
@@ -81,7 +92,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .main_btn {
   /* text */
@@ -95,13 +106,13 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--white);
 
   /* btn bg */
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: var(--blue);
 }
 
 /* main traits section */
@@ -114,7 +125,7 @@ ul {
 .main_trait_downer_text {
   line-height: 24px;
 
-  color: #757575;
+  color: var(--undertittle_col);
 }
 
 /* what are we doing section */
@@ -133,7 +144,7 @@ ul {
 /* our team section */
 
 .our_team_sect {
-  background-color: #f5f4fa;
+  background-color: var(--our_team_bg_col);
 }
 .our_team_text {
   font-weight: 700;
@@ -153,26 +164,26 @@ ul {
   line-height: 19px;
   text-align: center;
 
-  color: #757575;
+  color: var(--undertittle_col);
 }
 
 /* footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--main_bg_col);
 }
 .footer_Studio {
-  color: #ffffff;
+  color: var(--white);
 }
 .footer_map {
   line-height: 24px;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .footer_contacts {
   line-height: 24px;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts_col);
 }
 
 /* portfolio.html styles */
@@ -197,5 +208,5 @@ ul {
   font-size: 16px;
   line-height: 30px;
 
-  color: #757575;
+  color: var(--undertittle_col);
 }
