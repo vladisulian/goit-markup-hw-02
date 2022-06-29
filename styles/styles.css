@@ -28,7 +28,8 @@ ul {
 .btn:focus,
 .footer_contacts:focus,
 .footer_map:focus {
-  color: #2196f3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .main_btn,
