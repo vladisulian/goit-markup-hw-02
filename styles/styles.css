@@ -1,7 +1,11 @@
+/*  */
+/*  */
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  color: #212121;
   background-color: #ffffff;
 }
 
@@ -12,6 +16,9 @@ a {
 ul {
   list-style: none;
 }
+
+/*  */
+/*  */
 
 /* index html styles */
 
@@ -34,7 +41,6 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
 }
 .contacts {
   font-weight: 500;
@@ -42,6 +48,12 @@ ul {
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+.header_text:hover,
+.footer_contacts:hover,
+.contacts:hover,
+.footer_map:hover {
+  color: #2196f3;
 }
 
 /* Main */
@@ -87,7 +99,6 @@ ul {
   line-height: 16px;
   text-transform: uppercase;
 
-  color: #212121;
 }
 .main_trait_downer_text {
   line-height: 24px;
@@ -103,7 +114,6 @@ ul {
   line-height: 42px;
   text-align: center;
 
-  color: #212121;
 }
 /*  */
 /*  */
@@ -121,7 +131,6 @@ ul {
   line-height: 42px;
   text-align: center;
 
-  color: #212121;
 }
 .our_team_name_text {
   font-weight: 500;
@@ -129,7 +138,6 @@ ul {
   line-height: 19px;
   text-align: center;
 
-  color: #212121;
 }
 .our_team_job_tittle {
   font-weight: 400;
@@ -170,7 +178,6 @@ ul {
   line-height: 26px;
   text-align: center;
 
-  color: #212121;
 }
 /* img sect */
 .img_text {
@@ -180,7 +187,6 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
 }
 .img_downer_text {
   font-size: 16px;
