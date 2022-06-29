@@ -1,5 +1,5 @@
-/*  */
-/*  */
+/* common styles */
+/* common styles */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -16,9 +16,27 @@ a {
 ul {
   list-style: none;
 }
+.header_text:hover,
+.contacts:hover,
+.btn:hover,
+.footer_contacts:hover,
+.footer_map:hover {
+  color: #2196f3;
+}
+.header_text:focus,
+.contacts:focus,
+.btn:focus,
+.footer_contacts:focus,
+.footer_map:focus {
+  color: #2196f3;
+}
 
-/*  */
-/*  */
+.main_btn, .btn{
+    cursor: pointer;
+}
+
+/* common styles */
+/* common styles */
 
 /* index html styles */
 
@@ -40,7 +58,6 @@ ul {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-
 }
 .contacts {
   font-weight: 500;
@@ -48,12 +65,6 @@ ul {
   letter-spacing: 0.02em;
 
   color: #757575;
-}
-.header_text:hover,
-.footer_contacts:hover,
-.contacts:hover,
-.footer_map:hover {
-  color: #2196f3;
 }
 
 /* Main */
@@ -98,7 +109,6 @@ ul {
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
-
 }
 .main_trait_downer_text {
   line-height: 24px;
@@ -113,7 +123,6 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-
 }
 /*  */
 /*  */
@@ -130,14 +139,12 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-
 }
 .our_team_name_text {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-
 }
 .our_team_job_tittle {
   font-weight: 400;
@@ -177,7 +184,6 @@ ul {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-
 }
 /* img sect */
 .img_text {
@@ -186,7 +192,6 @@ ul {
   line-height: 36px;
 
   letter-spacing: 0.06em;
-
 }
 .img_downer_text {
   font-size: 16px;
