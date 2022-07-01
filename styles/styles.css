@@ -4,6 +4,7 @@
   --blue: #2196f3;
   --white: #ffffff;
   --contacts_col: #757575;
+  --footer_contacts_col: rgba(255, 255, 255, 0.6);
   --Studio_text: #000000;
   --text_col: #212121;
   --undertittle_col: #757575;
@@ -235,7 +236,7 @@ ul {
 .footer_contacts {
   line-height: 24px;
 
-  color: var(--contacts_col);
+  color: var(--footer_contacts_col);
 }
 
 /* portfolio.html styles */
@@ -254,8 +255,8 @@ ul {
   color: var(--btn_txt_cl);
 }
 .btn_filter:focus {
- background-color: var(--btn_bg_cl);
- color: var(--btn_txt_cl);
+  background-color: var(--btn_bg_cl);
+  color: var(--btn_txt_cl);
 }
 .current_btn {
   color: var(--btn_txt_cl);
