@@ -1,4 +1,5 @@
 :root {
+  --accent_col: #2196f3;
   --hover_col: #2196f3;
   --focus_bg_col: #2196f3;
   --blue: #2196f3;
@@ -9,8 +10,9 @@
   --undertittle_col: #757575;
   --our_team_bg_col: #f5f4fa;
   --main_bg_col: #2f303a;
-  --btn_cl: #2196f3;
-  --accent_col: #2196f3;
+  --btn_bg_cl: #2196f3;
+  --btn_bg_darker_cl: #0e4a7c;
+  --btn_txt_cl: #ffffff;
 }
 /* common styles */
 /* common styles */
@@ -49,27 +51,40 @@ address,
 ul {
   list-style: none;
 }
+
+/* hover & focus styles */
 .header_text:hover,
 .contacts:hover,
-.btn:hover,
 .footer_contacts:hover,
 .footer_map:hover {
-  color: var(--hover_col)
+  color: var(--accent_col);
+}
+.btn:hover {
+  background-color: var(--btn_bg_darker_cl);
 }
 .header_text:focus,
 .contacts:focus,
 .btn:focus,
 .footer_contacts:focus,
 .footer_map:focus {
-
+  outline: none;
+  box-shadow: 0 0 0 1.5px var(--focus_bg_col);
 }
+/* hover & focus styles end */
+
 
 .btn {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(26 / 16);
-  background-color: var(--btn_cl);
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--btn_txt_cl);
+  background-color: var(--btn_bg_cl);
 
   cursor: pointer;
 }
