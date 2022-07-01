@@ -1,6 +1,5 @@
 :root {
   --accent_col: #2196f3;
-  --hover_col: #2196f3;
   --focus_bg_col: #2196f3;
   --blue: #2196f3;
   --white: #ffffff;
@@ -11,9 +10,10 @@
   --our_team_bg_col: #f5f4fa;
   --main_bg_col: #2f303a;
   --btn_bg_cl: #2196f3;
-  --btn_bg_darker_cl: #0e4a7c;
+  --btn_bg_darker_cl: #0a85eb;
   --btn_txt_cl: #ffffff;
 }
+
 /* common styles */
 /* common styles */
 
@@ -60,7 +60,11 @@ ul {
   color: var(--accent_col);
 }
 .btn:hover {
+  color: var(--btn_txt_cl);
   background-color: var(--btn_bg_darker_cl);
+}
+.btn:focus {
+  color: #ffffff;
 }
 .header_text:focus,
 .contacts:focus,
@@ -70,8 +74,8 @@ ul {
   outline: none;
   box-shadow: 0 0 0 1.5px var(--focus_bg_col);
 }
-/* hover & focus styles end */
 
+/* hover & focus styles end */
 
 .btn {
   font-family: 'Roboto';
@@ -101,7 +105,7 @@ ul {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: calc(31 / 26);
 
   color: var(--blue);
 }
@@ -110,7 +114,8 @@ ul {
 }
 .header_text {
   font-weight: 500;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
   color: var(--text_col);
@@ -134,7 +139,7 @@ ul {
 .main_text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -146,7 +151,7 @@ ul {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: calc(30 / 16);
 
   display: flex;
   align-items: center;
@@ -196,19 +201,19 @@ ul {
 .our_team_text {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
 }
 .our_team_name_text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: calc(19 / 16);
   text-align: center;
 }
 .our_team_job_tittle {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: calc(19 / 16);
   text-align: center;
 
   color: var(--undertittle_col);
@@ -241,21 +246,33 @@ ul {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: calc(26 / 16);
   text-align: center;
+}
+.btn_filter:hover {
+  background-color: var(--btn_bg_cl);
+  color: var(--btn_txt_cl);
+}
+.btn_filter:focus {
+ background-color: var(--btn_bg_cl);
+ color: var(--btn_txt_cl);
+}
+.current_btn {
+  color: var(--btn_txt_cl);
+  background-color: var(--btn_bg_cl);
 }
 
 /* img sect */
 .img_text {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: calc(36 / 18);
 
   letter-spacing: 0.06em;
 }
 .img_downer_text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: calc(30 / 16);
 
   color: var(--undertittle_col);
 }
