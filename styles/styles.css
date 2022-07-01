@@ -172,7 +172,8 @@ ul {
 
 .main_trait_text {
   font-weight: 700;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: calc(16 / 14);
   text-transform: uppercase;
 }
 .main_trait_downer_text {
@@ -186,7 +187,7 @@ ul {
 .wawd_section_tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
 }
 /*  */
@@ -249,6 +250,10 @@ ul {
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+
+  cursor: pointer;
 }
 .btn_filter:hover {
   background-color: var(--btn_bg_cl);
@@ -268,7 +273,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
-
+  color: var(--text_col);
   letter-spacing: 0.06em;
 }
 .img_downer_text {
