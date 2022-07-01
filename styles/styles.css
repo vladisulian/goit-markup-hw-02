@@ -1,5 +1,6 @@
 :root {
   --hover_col: #2196f3;
+  --focus_bg_col: #2196f3;
   --blue: #2196f3;
   --white: #ffffff;
   --contacts_col: #757575;
@@ -8,20 +9,41 @@
   --undertittle_col: #757575;
   --our_team_bg_col: #f5f4fa;
   --main_bg_col: #2f303a;
+  --btn_cl: #2196f3;
+  --accent_col: #2196f3;
 }
 /* common styles */
 /* common styles */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text_col);
+
   background-color: var(--white);
 }
 
 a {
   text-decoration: none;
+}
+address,
+.webstudio {
+  font-style: normal;
 }
 
 ul {
@@ -32,18 +54,23 @@ ul {
 .btn:hover,
 .footer_contacts:hover,
 .footer_map:hover {
-  color: var(--hover_col);
+  color: var(--hover_col)
 }
 .header_text:focus,
 .contacts:focus,
 .btn:focus,
 .footer_contacts:focus,
 .footer_map:focus {
-  color: var(--white);
-  background-color: var(--hover_col);
+
 }
 
 .btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  background-color: var(--btn_cl);
+
   cursor: pointer;
 }
 
@@ -70,6 +97,11 @@ ul {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+
+  color: var(--text_col);
+}
+.current {
+  color: var(--accent_col);
 }
 .contacts {
   font-weight: 500;
@@ -115,9 +147,9 @@ ul {
   background-color: var(--blue);
 }
 
-/* main traits section */
+/* traits section */
 
-.main_trait1_text {
+.main_trait_text {
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
@@ -190,12 +222,14 @@ ul {
 
 /* main, button sect */
 
-.btn {
+.btn_filter {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
 }
+
 /* img sect */
 .img_text {
   font-weight: 700;
